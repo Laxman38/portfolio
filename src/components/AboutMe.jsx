@@ -11,19 +11,20 @@ const AboutMe = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
+            <h3 className="text-2xl font-semibold">
+              Aspiring Software Engineer
+            </h3>
 
             <p className="text-muted-foreground">
-              With over 1.5 years of experience in web development, I specialize
-              in creating responsive, accessible and performant web application
-              using modern technologies.
+              Computer Science undergraduate with experience building scalable
+              software applications and backend systems, focusing on clean code
+              and performance.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problem, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Interested in solving real-world engineering problems, debugging
+              issues, and strengthening core computer science fundamentals
+              through hands-on projects.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -62,11 +63,11 @@ const AboutMe = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg"> UI/UX Design</h4>
-                    <p className="text-muted-foreground">
-                        Designing intuitive user interfaces and seamless user
-                        experiences.
-                    </p>
+                  <h4 className="font-semibold text-lg"> Problem Solving</h4>
+                  <p className="text-muted-foreground">
+                    Debugging issues and handling edge cases across
+                    applications.
+                  </p>
                 </div>
               </div>
             </div>
@@ -76,10 +77,14 @@ const AboutMe = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg"> Project Management</h4>
-                    <p className="text-muted-foreground">
-                        Leading projects from conception to completion with agile methodologies.
-                    </p>
+                  <h4 className="font-semibold text-lg">
+                    {" "}
+                    Product Development
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Working on real-world features with performance and
+                    reliability in mind.
+                  </p>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Insightify",
-    description: "Automated Social Media Analytics Platform",
+    description: "Social media analytics platform focused on data aggregation, performance, and scalable system design.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "TypeScript", "Nginx", "Docker"],
     demoUrl: "#",
@@ -13,7 +13,7 @@ const projects = [
   {
     id: 2,
     title: "AI-Powered RFP Management System",
-    description: "Automating rfp creation to vendor evaluation",
+    description: "End-to-end system to automate RFP creation, processing, and vendor evaluation using AI-assisted workflows.",
     image: "/projects/project2.png",
     tags: ["React", "TailwindCSS", "Ollama"],
     demoUrl: "#",
@@ -21,12 +21,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "Smart Study Scheduler",
-    description: "Plan, track and optimize Study Sessions",
+    title: "CostGuard",
+    description: "API usage analytics and cost monitoring platform with a focus on reliability, observability, and backend performance.",
     image: "/projects/project3.png",
-    tags: ["React", "TailwindCSS", "Node.js", "MongoDB"],
-    demoUrl: "https://smart-study-scheduler-frontend-ashen.vercel.app/",
-    githubUrl: "https://github.com/Laxman38/smart-study-scheduler",
+    tags: ["React", "TailwindCSS", "TypeScript", "Nginx", "Docker"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Laxman38/costguard",
   },
 ];
 
@@ -39,8 +39,9 @@ const Projects = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my projects. Each project was carefully crafted with
-          attention to detail, performance and user experience.
+          Here are some selected projects that demonstrate my experience in
+          building software systems, working across the full stack, and solving
+          real-world engineering problems.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

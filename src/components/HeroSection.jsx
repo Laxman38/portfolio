@@ -1,26 +1,36 @@
 import { ArrowDown } from "lucide-react"
 
-
 const HeroSection = () => {
   return (
-    <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center px-4">
+    <section
+      id="hero"
+      className="relative min-h-screen flex flex-col items-center justify-center px-4"
+    >
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
-                <span className="text-primary opacity-0 animate-fade-in-1"> Laxman</span>
-                <span className="text-gradient ml-2 opacity-0 animate-fade-in-2"> Singh</span>
-            </h1>
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+            <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
+            <span className="text-primary opacity-0 animate-fade-in-1">
+              {" "}
+              Laxman
+            </span>
+            <span className="text-gradient ml-2 opacity-0 animate-fade-in-2">
+              {" "}
+              Singh
+            </span>
+          </h1>
 
-            <p className="text-lg md:text-xl text-muted-foreground mx-auto opacity-0 animate-fade-in-3">
-                I create stellar web experiences with modern technologies. Specializing in front-end and back-end development, I build interfaces that are beautiful and functional.
-            </p>
+          <p className="text-lg md:text-xl text-muted-foreground mx-auto opacity-0 animate-fade-in-3">
+            I build scalable full-stack applications and backend systems,
+            focusing on performance, reliability, and clean engineering
+            practices.
+          </p>
 
-            <div className="opacity-0 animate-fade-in-4">
-                <a href="#projects" className="cosmic-button">
-                    View My Work
-                </a>
-            </div>
+          <div className="opacity-0 animate-fade-in-4">
+            <a href="#projects" className="cosmic-button">
+              View My Work
+            </a>
+          </div>
         </div>
       </div>
 
@@ -29,7 +39,7 @@ const HeroSection = () => {
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
     </section>
-  )
+  );
 }
 
 export default HeroSection
